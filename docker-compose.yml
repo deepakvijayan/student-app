@@ -1,0 +1,32 @@
+version: "3.3"
+
+services:
+  student-app:
+    build: .
+    environment:
+      HOST: 8080
+      DB_HOST: pg
+      DB_USER: postgres
+      DB_PASS: example
+      DB_NAME: studentdb
+    ports:
+       - "8080:8080"
+    networks:
+       - pgnet
+  pg:
+    image: postgres:11-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    networks:
+      - pgnet
+
+volumes:
+  pg-data:
+
+networks:
+  pgnet:
