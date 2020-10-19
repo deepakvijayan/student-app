@@ -14,12 +14,12 @@ mvn clean package
 
 ## Docker build
 ``` 
-dokcer-compose build --verbose --no-cache
+docker-compose build --verbose --no-cache
 
 ```
 
 ## Docker run
 ``` 
-dokcer-compose up
+docker-compose up
 
 ```
