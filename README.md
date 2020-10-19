@@ -14,7 +14,7 @@ mvn clean package
 
 ## Docker build
 ``` 
-docker-compose build --verbose --no-cache
+docker-compose build --no-cache
 
 ```
 
