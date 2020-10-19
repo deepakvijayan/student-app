@@ -7,21 +7,21 @@
     - docker-compose
 
 
-## Docker build
+## Build on docker
 ``` 
 docker-compose build --no-cache
 
 ```
 
-## Docker run
+## Run on run
 ``` 
 docker-compose up
 
 ```
 
-## Docker run
+## Stop the application 
 ``` 
-docker-compose up
+docker-compose down
 
 ```
 
