@@ -4,6 +4,7 @@
     -JDK 11+
     - Docker
     - Maven
+    - docker-compose
 
 ## Project build with JUnits
 ``` 
