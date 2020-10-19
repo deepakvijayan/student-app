@@ -1,10 +1,10 @@
 # student-app
 
 # Pre-requestits
-    -JDK 11+
-    - Docker
-    - Maven
-    - docker-compose
+    -JDK 11
+    - Docker - 18.09.2 +
+    - Maven - 3.6 +
+    - docker-compose 1.23.2+
 
 
 ## Build on docker
