@@ -7,4 +7,4 @@ INSERT INTO students (id, name) VALUES(6, 'Deepak V');
 INSERT INTO students (id, name) VALUES(7, 'Deepak');
 INSERT INTO students (id, name) VALUES(8, 'Apple');
 INSERT INTO students (id, name) VALUES(9, 'Orange');
-INSERT INTO students (id, name) VALUES(9, 'Apricot');
+INSERT INTO students (id, name) VALUES(10, 'Apricot');
